@@ -10,6 +10,7 @@
 
 O projeto está em progressão
 <https://github.com/jhoninhas12/site
+https://jhoninhas12.github.io/Animal-connection-site/#about
 
 ## 👩‍💻 Desenvolvedores
 
