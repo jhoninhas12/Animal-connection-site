@@ -1,6 +1,6 @@
 # 🌟 Animal Connection - Web site para causa animal
 
-## [(https://jhoninhas12.github.io/Animal-connection-site/#about)]()
+## https://jhoninhas12.github.io/Animal-connection-site/#about
 
 ## 📝 Descrição do Projeto
 
