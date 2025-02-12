@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>AnimalConnection</title>
+        <link rel="shortcut icon" href="assets/logo-site.png" type="image/x-icon">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        <header class="header">
+            <!-- <a href="#" class="logo">
+                <img src="assets/logo.png" alt="">
+            </a> -->
+            <nav class="navbar">
+                <a href="#home">Início</a>
+                <a href="#about">Sobre nosso site</a>
+                <a href="#guia">Guia do site</a>
+            </nav>
+            <div class="icons">
+                <div class="fas fa-bars" id="menu-btn"></div>
+            </div>
+        </header>
+        <main>
+            <section class="home" id="home">
+                <figure>
+                    <img src="assets/dog.1.png" alt="”Imagem”" />
+                </figure>
+                <div class="content">
+                    <h1>BEM VINDO(A) AO ANIMAL CONNECTION!</h1>
+                    <!-- <a href="#guia" class="btn">Vamos começar!</a> -->
+                </div>
+            </section>
+            <section class="about" id="about">
+                <div class="row">
+                    <div class="image">
+                        <img src="./assets/gatinho.png" alt="Ilustração de uma garota programando" />
+                    </div>
+                    <div class="content">
+                        <h2>Como surgiu o Animal Connection</h2>
+                        <p>O Animal Connection nasceu como um TCC resultante de um processo visto pela cidade de Pedras de fogo, Itambé e região. Uma grande demanda de animais em estado de rua, 
+                        além de propragação de diversas doenças entre meios animais e humanos. O intuito do nosso projeto é contribuir com o bem estar animal reduzindo o espaço entre o animal 
+                        e a pessoa que deseja ajuda-lo servindo como um ponto de encontro!</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <aside>
+            <div class="button-container" id="guia">
+                <button class="button-tec" onclick="mostrarCards('animais-plano-adoção')">
+                    <h3 class="heading"><span>Animais para Adoção</span></h3>
+                    <p>Trilha para Animais para Adoção</p> 
+                </button>
+                <button class="button-tec" onclick="mostrarCards('animais-plano-perdidos')">
+                    <h3 class="heading"><span>Animais Perdidos</span></h3>
+                    <p>Trilha para Animais perdidos</p>
+                </button>
+                <button class="button-tec" onclick="mostrarCards('animais-plano-comunidade')">
+                    <h3 class="heading"><span>Comunidade</span></h3>
+                    <p>Trilha para Comunidade</p>
+                </button>
+            </div>
+            <!-- START: card de Animais para adoção -->
+            <section class="animais-plano" id="animais-plano-adoção">
+                <div class="box-container">
+                    <div class="box">
+                        <img src="assets/gato-preto.png" alt="" />
+                        <a href="views/gatos.html" class="btn">Gatos</a>
+                    </div>
+                    <div class="box">
+                        <img src="assets/cachorro-franjola.png" alt="" />
+                        <a href="views/cachorros.html" class="btn">Cachorros</a>
+                    </div>
+                </div>
+            </section>
+            <!-- END: card de Animais para adoção -->
+            <!-- START: card de Animais perdidos -->
+            <section class="animais-plano" id="animais-plano-perdidos">
+                <div class="box-container">
+                    <div class="box">
+                        <img src="assets/logo-animais-perdidos.png" alt="" />
+                        <a href="views/animais-perdidos.html" class="btn">Animais Perdidos</a>
+                    </div>
+                    <div class="box">
+                        <img src="assets/logo-do-maps.png" alt="" />
+                        <a href="views/mapa-de-busca.html" class="btn">Mapa de Busca</a>
+                    </div>
+                </div>
+            </section>
+             <!-- END: card de Animais perdidos -->
+              <!-- START: card de outros -->
+              <section class="animais-plano" id="animais-plano-comunidade">
+                <div class="box-container">
+                    <div class="box">
+                        <img src="assets/logo-comunidade.png" alt="" />
+                        <a href="views/comunidade.html" class="btn">Comunidade</a>
+                    </div>
+                    <div class="box">
+                        <img src="assets/logo-ongs.png" alt="" />
+                        <a href="views/ong's.html" class="btn">Ong's</a>
+                    </div>
+                        <div class="box">
+                            <img src="assets/logo-petshop.png" alt="" />
+                            <a href="views/petshop.html" class="btn">Petshop</a>
+                    </div>
+                </div>
+            </section>
+            <!-- END: card de outros -->
+        </aside>
+        <a href="" class="btn">Deixe o seu feedback</a>
+        <footer id="footer">
+            <section class="footer">
+                <div class="share">
+                    <a href="#" class="fab fa-whatsapp"></a>
+                    <a href="https://www.instagram.com/ongsejaumheroi?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="fab fa-instagram"></a>
+                </div>
+            </section>
+        </footer>
+        <script src="js/script.js"></script>
+    </body>
+</html>
